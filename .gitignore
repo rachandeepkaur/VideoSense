@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# VideoSense: dataset, cached flow, checkpoints, venv
+data/UCF101/*
+data/UCF101_mini/
+data/optical_flow/*
+data/splits/*
+!data/**/.gitkeep
+*.rar
+*.zip
+*.pt
+videosense_env/
